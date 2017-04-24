@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="jackson-android-networking-0.3.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/61e0c7d7b6e4c972d9da8bbcf5eb3d84a6fc0e43/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/61e0c7d7b6e4c972d9da8bbcf5eb3d84a6fc0e43/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amitshekhar.android/jackson-android-networking/0.3.0/e97dc14f160de2dd60098210372c09907f5d20b1/jackson-android-networking-0.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

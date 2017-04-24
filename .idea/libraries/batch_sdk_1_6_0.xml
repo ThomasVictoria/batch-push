@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="batch-sdk-1.6.0">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/16c8077d19d8e1a5fced9f617ed61d74b5cf46cd/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/16c8077d19d8e1a5fced9f617ed61d74b5cf46cd/output/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/16c8077d19d8e1a5fced9f617ed61d74b5cf46cd/output/jars/libs/batch.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

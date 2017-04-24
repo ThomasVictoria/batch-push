@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.batchat.thomas.batchat.activities.SetupActivity">
+
+    <LinearLayout
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:inputType="text"
+            android:hint="Titre notification"
+            android:layout_marginBottom="15dp"/>
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="left">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:id="@+id/attribute"
+                android:text="By attribute"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:id="@+id/tag"
+                android:layout_height="wrap_content"
+                android:text="By tag"/>
+
+        </RadioGroup>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/key"
+            android:inputType="text"
+            android:hint="Attribute/tag property"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/value"
+            android:inputType="text"
+            android:hint="Attribute/tag value"
+            android:layout_marginBottom="15dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/connexion"
+            android:text="Connexion"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
